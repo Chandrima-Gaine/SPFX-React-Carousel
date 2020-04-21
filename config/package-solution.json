@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Chandrima-spfx-react-carousel-client-side-solution",
+    "id": "78cf557d-1798-432d-b20a-16f7d4bc1a52",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/Chandrima-spfx-react-carousel.sppkg"
+  }
+}

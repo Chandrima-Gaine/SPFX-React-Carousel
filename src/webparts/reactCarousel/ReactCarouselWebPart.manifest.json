@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "39733494-5d9d-4c35-9ef4-34255aaab3f8",
+  "alias": "ReactCarouselWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "MyCustom" },
+    "title": { "default": "ChandrimaReactCarousel" },
+    "description": { "default": "Chandrima-React-based Carousel" },
+    "officeFabricIconFontName": "FileImage",
+    "properties": {
+      "description": "ChandrimaReactCarousel"
+    }
+  }]
+}
